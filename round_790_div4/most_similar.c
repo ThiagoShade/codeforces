@@ -14,13 +14,20 @@ int main() {
 
 
         for (i1 = 0; i1 < qtd_palavras; i1++) { // Algo de errado aqui
-            for (i2 = 0; i2 < qtd_letras; i2++) scanf("%c", &palavras[i1][i2]);
+           
+            for (i2 = 0; i2 < qtd_letras; i2++) {
+                scanf("%c\n", &palavras[i1][i2]);
+                printf("%c\n", palavras[i1][i2]);
+
+            }
         }
 
+
+
+
         
-
-
     }
+
 
 
     return 0;
